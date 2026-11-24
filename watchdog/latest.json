@@ -1,0 +1,72 @@
+{
+  "v": 1,
+  "kind": "watchdog",
+  "agent": "65",
+  "at": "2026-11-24T16:14:38.974Z",
+  "version": "watchdog-v1",
+  "mode": "report",
+  "checked": [
+    "D0",
+    "D1",
+    "D3",
+    "D13",
+    "D14",
+    "D15",
+    "D17",
+    "D18",
+    "D22",
+    "D23",
+    "D24",
+    "D28"
+  ],
+  "notChecked": [
+    "D2",
+    "D8"
+  ],
+  "notBuilt": [
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D9",
+    "D10",
+    "D11",
+    "D12",
+    "D16",
+    "D19",
+    "D20",
+    "D21",
+    "D25",
+    "D26"
+  ],
+  "findings": [
+    {
+      "id": "wd-65-D0-monitor-flags",
+      "check": "D0",
+      "name": "checker_fresh",
+      "severity": "report",
+      "subject": "bee-scouts MONITOR.md",
+      "detail": "MONITOR.md's Latest flags still says no scan has written there.",
+      "evidence": [
+        "https://github.com/HivemindOS-Agents/bee-scouts/blob/main/MONITOR.md"
+      ],
+      "firstSeen": "2026-11-24T16:14:38.974Z"
+    },
+    {
+      "id": "wd-65-D14-repo",
+      "check": "D14",
+      "name": "licence_missing",
+      "severity": "report",
+      "subject": "LICENSE",
+      "detail": "GitHub names no licence for its repository.",
+      "evidence": [
+        "https://github.com/HivemindOS-Agents/hivepunk-65"
+      ],
+      "firstSeen": "2026-11-24T16:14:38.974Z"
+    }
+  ],
+  "notSeenAgain": [],
+  "said": "2 found",
+  "requests": 8,
+  "elapsedMs": 2985
+}
