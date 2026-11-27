@@ -2,11 +2,12 @@
   "v": 1,
   "kind": "watchdog",
   "agent": "65",
-  "at": "2026-11-26T00:18:36.897Z",
+  "at": "2026-11-27T00:01:33.287Z",
   "version": "watchdog-v1",
   "mode": "report",
   "checked": [
     "D0",
+    "D4",
     "D1",
     "D2",
     "D3",
@@ -18,13 +19,13 @@
     "D22",
     "D23",
     "D24",
+    "D26",
     "D28"
   ],
   "notChecked": [
     "D8"
   ],
   "notBuilt": [
-    "D4",
     "D5",
     "D6",
     "D7",
@@ -36,8 +37,7 @@
     "D19",
     "D20",
     "D21",
-    "D25",
-    "D26"
+    "D25"
   ],
   "findings": [
     {
@@ -68,5 +68,5 @@
   "notSeenAgain": [],
   "said": "2 found",
   "requests": 8,
-  "elapsedMs": 3427
+  "elapsedMs": 2890
 }
